@@ -1,0 +1,104 @@
+.form-section{
+        max-width: 47.4rem;
+        max-height: 63.4rem;
+        padding: 2rem 4rem;
+        box-shadow:1px 1px 8px 4px #c0c0c0;
+        border-radius: 5%;
+        background-color: #fff;
+
+        @media only screen and (max-width:37.5em) {
+                        border-radius: 0;
+                        
+                        
+        }
+
+        &__heading-1{
+                font-size: 1.8rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+        }
+        &__heading-2{
+                font-weight:400 ;
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+
+                @media only screen and (max-width:37.5em) {
+                        margin-bottom: 1.7rem;
+                  }
+        }
+       &__group{
+               display: flex;
+               margin-bottom: 1rem;
+               
+       }
+       &__input{
+               width: 100%;
+               margin-left: -1.9rem;
+               padding: .7rem 2rem;
+               border-radius: 5px;
+               font-family:Noto Sans;
+               text-transform: capitalize;
+               font-size: 1.6rem;
+               font-weight: 400;
+                border-bottom:3px  solid #c0c0c0;
+                display: block;
+                transition: all .3s;
+                @media only screen and (max-width:37.5em) {
+                        margin-bottom: 1rem;  
+                    }
+
+
+                &:focus{
+                        outline: none;
+                        border-bottom: 3px solid #2f80ed;
+                        box-shadow: 1px 0rem 1rem #c0c0c0;
+
+                        &:invalid{
+                                border-bottom: 3px solid red;
+                        }
+                }
+        }
+        &__CTA{
+                margin-top: auto;
+        }
+        &__CTA-text{ 
+                @media only screen and (max-width:37.5em) {
+                        margin-bottom: 1.4rem;  
+                    }
+        }
+        &__paragraph{
+                @media only screen and (max-width:37.5em) {
+                        margin-bottom: 1.1rem;  
+                    }  
+        }
+
+        &__paragraph,
+        &__CTA-text{
+                font-size: 1.4rem;
+                font-family:inherit;
+                font-weight: 400;
+                color: #828282;
+                margin-top: 2rem;
+                text-align: center;
+        }
+        &__link,
+        &__CTA-link{
+                text-decoration: none;
+        }
+        &__CTA-link{
+                color:#2f80ed;
+        }
+        &__social-container{
+                border: 1px solid #828282;
+                padding: 8px;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                height: 4rem;
+                width:4rem;
+        }
+        
+       
+}
+
