@@ -8,6 +8,10 @@
 
         @media only screen and (max-width:37.5em) {
                         border-radius: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        justify-content: center;
                         
                         
         }
@@ -28,8 +32,9 @@
         }
        &__group{
                display: flex;
-               margin-bottom: 1rem;
-               
+               margin-bottom: 1.5rem;
+               justify-content: center;
+               align-content: center;            
        }
        &__input{
                width: 100%;
