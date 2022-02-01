@@ -36,14 +36,16 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      justify-content: center; } }
+      justify-content: center;
+      box-shadow: none;
+      padding: 2.5rem 3rem; } }
   .form-section__heading-1 {
     font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 1rem; }
+    margin-bottom: 1.5rem; }
   .form-section__heading-2 {
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 1.5rem; }
     @media only screen and (max-width: 37.5em) {
       .form-section__heading-2 {
